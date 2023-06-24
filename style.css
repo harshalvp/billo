@@ -1,0 +1,142 @@
+
+.bg-cover{
+    z-index: 2;
+    position: relative;
+    background-image: url(img/cover_1.jpg);
+    height: 100vh;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(17, 7, 254, 0.7), rgba(0, 224, 254, 0.7));
+    z-index: -1;
+}
+.bg-cover {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.divider{
+    width: 70px;
+    height: 5px;
+    background:linear-gradient(rgba(17, 7, 254, 0.7), rgba(0, 224, 254, 0.7))
+}
+.love2{
+    width: 400px;
+}
+
+.bg-cover1 {
+    z-index: 2;
+    position: relative;
+    background-image: url(img/cover_3.jpg);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgba(17, 7, 254, 0.7), rgba(0, 224, 254, 0.7));
+    z-index: -1;
+}
+
+.bg-cover3 {
+    z-index: 1;
+    position: relative;
+    background-image: url(img/cover_2.jpg);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 80px;
+} 
+ .overlay3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgba(17, 7, 254, 0.7), rgba(0, 224, 254, 0.7));
+    z-index: -1;
+}
+
+
+.bg-cover5 {
+    z-index: 2;
+    position: relative;
+    background-image: url(img/cover_3.jpg);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.overlay5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(rgba(17, 7, 254, 0.7), rgba(0, 224, 254, 0.7));
+    z-index: -1;
+}
+.icon{
+    font-size: 80px;
+}
+
+@media (max-width: 767.98px) { 
+    .icon{
+        font-size: 40px;
+    }
+    .bg-cover3{
+        height: 100vh;
+    }
+    .overlay3{
+        height: 100vh;
+    }
+ }
+
+ .form-control {
+    border-radius: 0;
+    background: transparent;
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  form .form-control:focus {
+    color: #fff;
+    background: transparent;
+    border-color: #fff;
+  }
+  
+  form input.form-control {
+    height: 54px;
+  }
+  
+  form .form-control::placeholder {
+    color: #fff;
+  }
+  
+  footer {
+    background: linear-gradient(
+      to right,
+      rgb(0, 195, 254) 0%,
+      rgb(7, 254, 65) 100%
+    );
+    color: #fff;
+  }
+
+
+
+
+
+
